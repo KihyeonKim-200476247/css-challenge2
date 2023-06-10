@@ -1,0 +1,90 @@
+h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+h1:hover {
+  color: #74837d;
+  transition: background-color 0.3s;
+}
+
+body {
+  background-image: url(./img/alex-lvrs-Md6_qA-BMis-unsplash.jpg);
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.wrapper {
+
+  width: 80%;
+  margin: auto;
+  border-color: rgb(0, 9, 13);
+  border-style: solid;
+  border-width: 5px;
+  background-color: #e0e1dd;
+  text-align: center;
+  color: black;
+}
+
+header {
+
+  width: 90%;
+  margin: 0 auto;
+  background-color: #cecbcb;
+}
+
+main section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+img {
+
+  filter: contrast(170%) brightness(90%);
+
+}
+
+.wrapper-2 {
+  text-align: center;
+}
+
+ul li:nth-child(1) {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li:nth-child(3) {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li:nth-child(4) {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li:nth-child(5) {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: 1128px) {
+  /* Styles for screens smaller than 768px (e.g., mobile devices) */
+
+  img {
+
+    width: 80%;
+  }
+}
